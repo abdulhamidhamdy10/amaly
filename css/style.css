@@ -1,0 +1,350 @@
+/* start global  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: aqua; */
+    /* background-image: url(../images/body-bg.png); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headnav{
+    background-image: url(../images/pexels-nao-triponez-129208.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    /* height: 100px; */
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(2,auto);
+    color: white;
+    /* padding: 10px; */
+    font-size: larger;
+    text-align: center;
+    /* margin-top: 10px; */
+    transition: transform 0.3s;
+
+}
+
+
+.first{
+    color: darkorange;
+    grid-column: 3/4;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:monospace;
+
+}
+
+
+.home{
+    grid-column: 9/10;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+    transition: transform 0.3s;
+}
+.home:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.apple{
+    grid-column: 10/11;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+}
+.apple:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.hp{
+    grid-column: 11/12;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+
+}
+.hp:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+.dell{
+transition: transform 0.3s;
+
+    grid-column: 12/13;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+}
+.dell:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+
+
+
+.navbar button{
+    background-color: darkorange;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+
+}
+
+.navbar button:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+}
+
+
+.navbar .home p, .apple p, .hp p, .dell p{
+    color: black;
+}
+
+/* ********************************************************* */
+/* header  */
+/* ********************************************************* */
+
+.header{
+    margin-left: 700px;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+    background-size: cover;
+}
+
+.header h1{
+    /* background-image: url(../images/Hd-Laptop-wallpapers.jpg.crdownload); */
+    padding-top: 230px;
+    background-size: cover;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+.header h4{
+    margin-left: 200px;
+    width: 60%;
+}
+
+.header button{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 300px;
+    background-color: rgb(0, 157, 255);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    text-align: center;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+}
+.header button:hover{
+    margin-bottom: 300px;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    border: 3px solid rgb(0, 157, 255);
+
+}
+
+/* ********************************************************* */
+/* section  */
+/* ********************************************************* */
+
+.section{
+    /* background-color: aliceblue; */
+}
+.section .images{
+    display: flex;
+    justify-content:space-around ;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.section h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+.section .images img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s;
+
+}
+.section .images img:hover{
+   transform: scale(1.2);
+    
+}
+
+.section .images .hpicon{
+    width: 330px;
+    height: 200px;
+}
+
+.section .images .dellicon{
+    margin-left: 50px;
+}
+
+
+/* ********************************************************* */
+/* main  */
+/* ********************************************************* */
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-around;
+}
+.main .text{
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 150px;
+}
+
+.main .imag img{
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+
+/* ********************************************************* */
+/* main  */
+/* ********************************************************* */
+
+.end {
+    background-color: rgb(18, 14, 14);
+    margin-top: 100px;
+
+}
+
+.end .endone{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.end .endone h2{
+margin-bottom: 30px;
+font-weight: 900;
+color: darkorange;
+
+}
+
+.end .endone .movies, .gaming{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.end .endone .movies, .gaming{
+    margin-top: 100px;
+    text-align: center;
+}
+.end .endone img{
+    /* border: 2px solid #ffffff; */
+    width: 300px;
+    height: 200px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px 5px #ffffff;
+}
+
+.end .endtwo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.end .endtwo img{
+    transition: transform 0.3s;
+    margin-right: 50px;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #ffffff;
+    margin-bottom: 50px;
+}
+.end .endtwo img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px 5px #ffffff;
+
+
+}
+
+/* ********************************************************* */
+/* footer  */
+/* ********************************************************* */
+
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+  
+}
+.footer:hover{
+    margin-top: 100px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: darkorange;
+  
+}
+
+.footercontent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+    text-align: center;
+    gap: 30px;
+
+    
+}
+
+
+.footer h1{
+    text-align: center;
+}
+
+.itemone{
+    grid-column: 5/6;
+}
+.itemtwo{
+    grid-column: 7/8;
+}
+.itemthree{
+    grid-column: 9/10;
+}
+.itemfour{
+    grid-column: 11/12;
+}
+
+.footer .container{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}

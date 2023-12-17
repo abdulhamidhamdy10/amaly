@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+        background-image: url(../images/apple/etXyPN5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.headnav{
+    background-image: url(../images/apple/thumb2-apple-macbook-laptop-on-black-background-modern-technology-laptop-apple.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    /* height: 100px; */
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(2,auto);
+    color: white;
+    /* padding: 10px; */
+    font-size: larger;
+    text-align: center;
+    /* margin-top: 10px; */
+    transition: transform 0.3s;
+
+}
+
+
+.first{
+    color: darkorange;
+    grid-column: 3/4;
+    font-size: 30px;
+    font-weight: 900;
+    font-family:monospace;
+
+}
+
+
+.home{
+    grid-column: 9/10;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+    transition: transform 0.3s;
+}
+.home:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.apple{
+    grid-column: 10/11;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+}
+.apple:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+.hp{
+    grid-column: 11/12;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+transition: transform 0.3s;
+
+}
+.hp:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+.dell{
+transition: transform 0.3s;
+
+    grid-column: 12/13;
+    /* margin-top: 10px; */
+    font-weight:bolder;
+}
+.dell:hover{
+    border-top: 4px solid darkorange;
+    transform: scale(1.4);
+}
+
+
+
+
+
+.navbar button{
+    background-color: darkorange;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+
+}
+
+.navbar button:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+}
+
+
+.navbar .home p, .apple p, .hp p, .dell p{
+    color: black;
+}
+
+/* ********************************************************* */
+/* header  */
+/* ********************************************************* */
+
+.header{
+    margin-left: 200px;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+    background-size: cover;
+}
+
+.header h1{
+    /* background-image: url(../images/Hd-Laptop-wallpapers.jpg.crdownload); */
+    padding-top: 170px;
+    background-size: cover;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+
+}
+.header h4{
+    width: 50%;
+    margin-left: 220px;
+
+}
+
+.header h2{
+    margin-right: 180px;
+    padding-bottom: 380px;
+}
+
+.header button{
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: rgb(0, 157, 255);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px;
+    text-align: center;
+    border-radius: 50px;
+    border-style:solid;
+    transition: transform 0.3s;
+}
+.header button:hover{
+    margin-bottom: 300px;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    border: 3px solid rgb(0, 157, 255);
+
+}
+
+
+
+
+/* ********************************************************* */
+/* section  */
+/* ********************************************************* */
+
+
+.section .row{
+    margin-bottom: 100px;
+}
+.section .row .images{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;    
+}
+.section .row .images img{
+    width: 250px;
+    height: 150px;
+    /* display: inline-block; */
+}
+
+.section .detials{
+    text-align: center;
+}
+
+.section .row .detials{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.section .row .detials button{
+    margin-top: 20px;
+    background-color: rgb(0, 110, 255);
+    color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+.section .row .detials h5{
+    margin-top: 10px;
+/* margin-right: 20px; */
+}
+
+.section .row .images .elementone, .elementtwo{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px ;
+    border-top-right-radius:130px ;
+}
+
+
+
+
+
+.section .row .detials .detailsone, .detailstwo{
+    width: 40%;
+    margin-top: -70px;
+    background-color: rgb(255, 255, 255);
+    padding: 90px ;
+    border-bottom-left-radius:130px ;
+}
+.section .row .detials .detailsone:hover, .detailstwo:hover{
+    width: 40%;
+    color:rgb(0, 0, 0);
+    margin-top: -70px;
+    background-color: rgb(245, 235, 223);
+    padding: 90px ;
+}
+
+#doublephoto{
+    width: 500px;
+}
+
+
+
+/* ********************************************************* */
+/* main  */
+/* ********************************************************* */
+
+
+
+
+
+
+.maintwo .pc{
+    color: black;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 235, 223);
+}
+
+.maintwo .pc .text{
+    font-weight: 900;
+    margin-right: 200px;
+    width: 30%;
+    font-size: 60px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.maintwo .pc .image{
+
+   margin-right: 170px;
+}
+
+
+.maintwo .pc .image img{
+    width: 300px;
+    height: 350px;
+}
+
+
+
+
+
+.maintwo .pc .text2{
+    font-weight: 900;
+    width: 30%;
+    font-size: 60px;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.maintwo .pc .image2{
+
+   margin-left: 100px;
+}
+
+
+.maintwo .pc .image2 img{
+    margin-top: 100px;
+    width: 300px;
+    height: 150px;
+}
+
+
+/* ********************************************************* */
+/* end */
+/* ********************************************************* */
+
+.end{
+    margin-top: 100px;
+    background-image: url(../images/apple/apple_logo_with_light_in_blue_black_background_hd_macbook.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.end h1{
+    margin-right: 10px;
+    color: aliceblue;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+
+/* ********************************************************* */
+/* footer  */
+/* ********************************************************* */
+
+.footer{
+    margin-top: 100px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 235, 223);
+  
+}
+
+
+.footercontent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(15,auto);
+    grid-template-rows: repeat(1,auto);
+    text-align: center;
+    gap: 30px;
+}
+
+
+.footer h1{
+    text-align: center;
+}
+
+.itemone{
+    grid-column: 5/6;
+}
+.itemtwo{
+    grid-column: 7/8;
+}
+.itemthree{
+    grid-column: 9/10;
+}
+.itemfour{
+    grid-column: 11/12;
+}
+
+.footer .container{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
